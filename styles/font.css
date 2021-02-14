@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'PDBold';
+    src: url(../font/PlayfairDisplay-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'MReg';
+    src: url(../font/Mulish-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'IMedium';
+    src: url(../font/Inter-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Typographica';
+    src: url(../font/Typographica.ttf);
+}
+
+@font-face {
+    font-family: 'IRegular';
+    src: url(../font/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'MRegular';
+    src: url(../font/Mulish-Black.ttf);
+}
+
+@font-face {
+    font-family: 'MLight';
+    src: url(../font/Mulish-Light.ttf);
+}
+
+@font-face {
+    font-family: 'ILight';
+    src: url(../font/Inter-Light.ttf);
+}

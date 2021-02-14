@@ -1,0 +1,68 @@
+.travelDirections {
+    grid-area: travelDirections;
+    width: 1120px;
+    height: 532px;   
+    margin-top: 262px;
+    margin-left: 240px;
+    
+}
+
+.travelDirections__text {
+    display: flex;
+    justify-content: space-between;
+    width: 1120px;
+    height: 60px;
+    margin-bottom: 56px;   
+}
+
+.travelDirections__title {
+    display: flex;
+    justify-content: space-between;
+    width: 481px;
+    height: 50px;
+    color: var(--c-black);
+    font-family: 'PDBold';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 50px;
+}
+
+.viewall {
+    width: 79px;
+    height: 60px;
+    background-image: url(../img/view-all.jpg);
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+
+.travelDirections__pictures {
+    display: flex;
+    justify-content: space-between;
+    width: 1120px;
+    height: 337px;
+}
+
+.travelDirections__first__pic {
+    width: 261px;
+    height: 337px;
+    background-image: url(../img/raja-ampat.jpg);
+}
+
+.travelDirections__second__pic {
+    width: 261px;
+    height: 337px;
+    background-image: url(../img/fanjingshan.jpg);
+}
+
+.travelDirections__third__pic {
+    width: 261px;
+    height: 337px;
+    background-image: url(../img/vevey.jpg);
+}
+
+.travelDirections__fourth__pic {
+    width: 261px;
+    height: 337px;
+    background-image: url(../img/skadar.jpg);
+}

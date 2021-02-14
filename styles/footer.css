@@ -1,0 +1,94 @@
+.footer {
+    grid-area: footer;
+    max-width: 100%;
+    height: 482px;
+    background-color: var(--c-ghostly-white);
+}
+
+.footerTextBlock {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 60px;
+    background-color: var(--c-ghostly-white);
+}
+
+.footerBlock {
+    margin-top: 78px;
+}
+
+.footerFirstBlock {
+    width: 391px;
+    height: 237px;
+}
+
+.mainLogo {
+    width: 44px;
+    height: 44px;
+    margin-top: 0;
+    margin-bottom: 26px;
+}
+
+.footerFirstText {
+    width: 391px;
+    height: 84px;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 55px;
+    font-family: 'MLight';
+    color: var(--c-pearl-dark-gray);
+}
+
+.footerText {
+    font-size: 17px;
+    line-height: 28px;
+    margin-bottom: 16px;
+    font-family: 'MLight';
+    color: var(--c-pearl-dark-gray);
+}
+
+.footerTitle {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 26px;
+    font-family: 'MRegular';
+    color: var(--c-black);
+}
+
+.footerIconBlock {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 700px;
+    margin-top: 20px;
+    width: 248px;
+    height: 23px;
+}
+
+.Iconfirst {
+    width: 25px;
+    height: 20px;
+    background-image: url(../img/t.jpg);
+}
+
+.IconSecond {
+    width: 10px;
+    height: 22px;
+    background-image: url(../img/f.jpg);
+}
+
+.IconThird {
+    width: 22px;
+    height: 22px;
+    background-image: url(../img/i.jpg);
+}
+
+.IconFourth {
+    width: 23px;
+    height: 22px;   
+    background-image: url(../img/l.jpg);
+}
+
+.IconFifth {
+    width: 28px;
+    height: 20px;
+    background-image: url(../img/y.jpg);
+}

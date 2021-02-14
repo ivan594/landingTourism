@@ -1,0 +1,32 @@
+@import './font.css';
+@import './normalize.css';
+@import './variables.css';
+@import './common.css';
+@import './header.css';
+@import './touristMain.css';
+@import './touristSecond.css';
+@import './travelDirections.css';
+@import './touristThird.css';
+@import './testimonials.css';
+@import './trendingStories.css';
+@import './footer.css';
+
+
+.wrapper {
+    --side-gap: 92px;
+    width: 100%; 
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas: 
+    '. header .'
+    '. touristMain .'
+    '. touristSecond .'
+    '. travelDirections .'
+    '. touristThird .'
+    '. testimonials .'
+    '. trendingStories .'
+    'footer footer footer';
+    grid-template-columns: var(--side-gap) 1fr var(--side-gap);
+}
+
+

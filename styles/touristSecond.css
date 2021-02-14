@@ -1,0 +1,42 @@
+.touristSecond {
+    grid-area: touristSecond;
+    display: flex;
+    width: 1242px;
+    height: 550px;
+    margin-top: 200px;
+    margin-left: 190px;
+}
+
+.touristSecond__firstBlock {
+    width: 659px;
+    height: 534px;
+    background-image: url(../img/touristSecond.jpg);
+}
+
+.touristSecond__secondBlock {
+    width: 481px;
+    height: 333px;
+    margin-left: 102px;
+    margin-top: 108px;
+}
+
+.touristSecond__title {
+    width: 481px;
+    height: 100px;
+    font-family: 'PDBold';
+    font-size: 36px;
+    line-height: 50px;
+    color: var(--c-black);
+    margin-bottom: 20px;
+}
+
+.touristSecond__text {
+    width: 450px;
+    height: 120px;
+    font-family: 'MReg';
+    font-size: 15px;
+    line-height: 30px;
+    color: var(--c-dusty-gray);
+}
+
+

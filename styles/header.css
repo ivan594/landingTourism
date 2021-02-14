@@ -1,0 +1,39 @@
+/* Нужно попробовать сделать ширину меньшее или больше. При 1415 не влазит на весь экран. */
+.header {
+    grid-area: header;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1415px;
+    max-height: 100px;
+    padding-top: 20px;
+    margin-left: 190px;
+}
+
+.mainLogo {
+    margin-top: 20px;
+}
+
+.header_nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 663px;
+    height: 60px;
+}
+
+.header__navigationLinkFirst {
+    margin-right: 15px;
+    font-size: 16px;
+    font-family: 'Typographica';
+    text-decoration: none;
+    color: var(--c-cobalt-blue);
+}
+
+.header__navigationLink {
+    margin-right: 15px;
+    font-size: 16px;
+    font-family: 'Typographica';
+    text-decoration: none;
+    color: var(--c-light-gray);
+}

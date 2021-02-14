@@ -1,0 +1,77 @@
+.header__navigationButtonHollow {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 132px;
+    height: 44px;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: 'MReg';
+    background-color: var(--c-white);
+    border: 2px solid var(--c-light-carrot);
+    margin-right: 10px;
+}
+
+.header__navigationButton {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 132px;
+    height: 44px;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: 'MReg';
+    background-color: var(--c-light-carrot);
+    border: 2px solid var(--c-light-carrot);
+    margin-right: 10px;
+}
+
+.touristMain__button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'MReg';
+    color: var(--c-white);
+    width: 180px;
+    height: 60px;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: var(--c-light-carrot);
+    border: 2px solid var(--c-light-carrot);
+    margin-right: 10px;
+}
+
+.touristSecond__button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'IMedium';
+    color: var(--c-white);
+    width: 164px;
+    height: 60px;
+    border-radius: 8px;
+    font-size: 16px;
+    line-height: 60px;
+    cursor: pointer;
+    background-color: var(--c-light-carrot);
+    border: 2px solid var(--c-light-carrot);
+}
+
+.touristThird__button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'IMedium';
+    color: var(--c-white);
+    width: 164px;
+    height: 48px;
+    border-radius: 8px;
+    font-size: 16px;
+    line-height: 60px;
+    cursor: pointer;
+    background-color: var(--c-light-carrot);
+    border: 2px solid var(--c-light-carrot);
+}
