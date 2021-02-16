@@ -2,11 +2,18 @@
     grid-area: touristMain;
     display: flex;
     justify-content: space-between;
-    width: 1415px;
+    max-width: 1415px;
     height: 786px;
     margin-top: 50px;
-    margin-left: 190px;
+    margin-left: 18px;
 }
+
+.touristMain__firstBlock {
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+}
+
 
 .tourist__text__main {
     max-width: 356px;
@@ -16,17 +23,23 @@
 }
 
 .select__block__line {
-    width: 100%;
+    width: 50px;
+    margin-left: 0px;
+    margin-top: 5px;
+    margin-bottom: 48px;
+	border: none;
+	border-top: 2px solid var(--c-cobalt-blue);
 }
 
 .select__block {
+    display: flex;
+    flex-direction: column;
     max-width: 471px;
     height: 344px;
-    margin-top: 74px;
 }
 
 .select__block__text {
-    margin-bottom: 50px;
+    margin-bottom: 21px;
     color: var(--c-cobalt-blue);
 }
 

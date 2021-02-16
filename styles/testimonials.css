@@ -2,10 +2,10 @@
     grid-area: testimonials;
     display: flex;
     align-content: center;
-    width: 1180px;
+    max-width: 1180px;
     height: 615px;
     margin-top: 248px;
-    margin-left: 240px;
+    margin-left: 160px;
 }
 
 .testimonials__title {
@@ -19,6 +19,8 @@
 }
 
 .testimonials__first__block {
+    display: flex;
+    flex-direction: column;
     width: 450px;
     height: 321px;
 }
@@ -65,4 +67,32 @@
     background-image: url(../img/man.jpg);
     align-self: flex-end;
     margin-left: 169px;
+}
+
+.trendingStories__first__pic {
+    display: flex;
+    justify-content: space-between;
+    width: 266px;
+    height: 466px;
+} 
+
+.trendingStories__image1 {
+    width: 266px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-image: url(../img/blog01.jpg);
+}
+
+.trendingStories__title {
+    font-size: 15px;
+    line-height: 30px;
+    font-family: 'IMedium';
+    color: var(--c-black);
+}
+
+.trendingStories__text {
+    font-size: 15px;
+    line-height: 26px;
+    font-family: 'ILight';
+    color: var(--c-dusty-gray);
 }

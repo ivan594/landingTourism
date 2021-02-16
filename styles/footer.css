@@ -57,6 +57,7 @@
 .footerIconBlock {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     margin-left: 700px;
     margin-top: 20px;
     width: 248px;

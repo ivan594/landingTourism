@@ -1,20 +1,21 @@
 .touristSecond {
     grid-area: touristSecond;
     display: flex;
-    width: 1242px;
+    max-width: 1242px;
     height: 550px;
     margin-top: 200px;
-    margin-left: 190px;
+    margin-left: 98px;
 }
 
 .touristSecond__firstBlock {
+    display: flex;
     width: 659px;
     height: 534px;
     background-image: url(../img/touristSecond.jpg);
 }
 
 .touristSecond__secondBlock {
-    width: 481px;
+    max-width: 481px;
     height: 333px;
     margin-left: 102px;
     margin-top: 108px;

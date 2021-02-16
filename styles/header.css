@@ -6,15 +6,22 @@
     align-items: center;
     max-width: 1415px;
     max-height: 100px;
-    padding-top: 20px;
-    margin-left: 190px;
+    margin-top: 50px;
+    margin-left: 98px;
+}
+
+.header__mainLogo {
+    display: flex;
+    width: 44px;
+    height: 44px;
 }
 
 .mainLogo {
-    margin-top: 20px;
+    background-repeat: no-repeat;
+    background-image: url(../img/logo.jpg);
 }
 
-.header_nav {
+.header__nav {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,18 +29,25 @@
     height: 60px;
 }
 
+.header__navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
 .header__navigationLinkFirst {
     margin-right: 15px;
     font-size: 16px;
-    font-family: 'Typographica';
+    font-family: 'IRegular';
     text-decoration: none;
     color: var(--c-cobalt-blue);
+    margin-right: 30px;
 }
 
 .header__navigationLink {
     margin-right: 15px;
     font-size: 16px;
-    font-family: 'Typographica';
+    font-family: 'IRegular';
     text-decoration: none;
     color: var(--c-light-gray);
+    margin-right: 30px;
 }

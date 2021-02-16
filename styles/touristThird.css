@@ -1,15 +1,16 @@
 .touristThird {
     grid-area: touristThird;
     display: flex;
-    width: 1205px;
+    max-width: 1205px;
     height: 542px;
     margin-top: 262px;
-    margin-left: 80px;
-    margin-left: 240px;
+    margin-left: 160px;
 }
 
 .touristThird__firstBlock {
-    width: 481px;
+    display: flex;
+    flex-direction: column;
+    max-width: 481px;
     height: 303px;
     margin-right: 49px;
     margin-top: 100px;
@@ -23,14 +24,14 @@
 }
 
 .touristThird__title__block {
-    width: 481px;
+    max-width: 481px;
     height: 100px;
     font-family: 'PDBold';
     font-size: 36px;
     line-height: 50px;
     color: var(--c-black);
     margin-top: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .touristThird__title {
@@ -38,7 +39,7 @@
 }
 
 .touristThird__text {
-    width: 450px;
+    max-width: 450px;
     height: 90px;
     font-family: 'MReg';
     font-size: 17px;
