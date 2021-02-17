@@ -14,7 +14,7 @@
 
 .wrapper {
     --side-gap: 92px;
-    max-width: 1600px; 
+    max-width: 100%; 
     margin: 0 auto;
     display: grid;
     grid-template-areas: 
