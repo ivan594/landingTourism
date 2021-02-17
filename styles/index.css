@@ -14,7 +14,7 @@
 
 .wrapper {
     --side-gap: 92px;
-    max-width: 1700px; 
+    max-width: 1600px; 
     margin: 0 auto;
     display: grid;
     grid-template-areas: 
@@ -29,7 +29,7 @@
     grid-template-columns: var(--side-gap) 1fr var(--side-gap);
 }
 
-/* @media (max-width: 1400px) {
+@media (max-width: 1400px) {
     .wrapper {
         --side-gap: 46px;
     }
@@ -45,5 +45,5 @@
     .wrapper {
         --side-gap: 0px;
     }
-} */
+}
 
